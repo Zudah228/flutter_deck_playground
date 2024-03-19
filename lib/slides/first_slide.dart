@@ -5,7 +5,7 @@ class FirstSlide extends FlutterDeckSlideWidget {
   FirstSlide()
       : super(
           configuration: const FlutterDeckSlideConfiguration(
-            route: 'first',
+            route: '/first',
             header: FlutterDeckHeaderConfiguration(
               title: 'Blank slide template',
             ),
